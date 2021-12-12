@@ -19,9 +19,9 @@ public class ChickenCoop {
    public void remove(Chicken chicken){
     Scanner read = new Scanner(System.in); 
     System.out.println("Enter the chicken id for delete--->");
-    id = read.nextInt(); 
+    int dni = read.nextInt(); 
     for(int i = 0; i <chickens.size(); i++ ){
-        if ( chickens.get(i).getId() == id) {
+        if ( chickens.get(i).getId() == dni) {
              chickens.remove(i);
         }
     }
