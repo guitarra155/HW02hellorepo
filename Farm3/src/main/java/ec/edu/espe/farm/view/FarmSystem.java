@@ -45,8 +45,7 @@ public class FarmSystem {
         String color="white and brown";
         int age = 2;
         boolean molting = true;
-
-                       
+       
         System.out.println("GUITARRA JHON");
         System.out.println("Menu");
         System.out.println("1 .-  Add chickens");

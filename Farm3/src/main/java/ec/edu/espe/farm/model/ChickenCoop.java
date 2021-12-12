@@ -19,15 +19,13 @@ public class ChickenCoop {
    public void remove(Chicken chicken){
     Scanner read = new Scanner(System.in); 
     System.out.println("Enter the chicken id for delete--->");
-    id = read.nextInt();
-      // if (chickens.listIterator()) {
-           
-      // }
-    
-    
-    Chicken search = chickens.get(id);
-    chickens.remove(id-1);
-               
+    id = read.nextInt(); 
+    for(int i = 0; i <chickens.size(); i++ ){
+        if (id == chickens.get(i).getId()) {
+             chickens.remove(i);
+        }
+    }
+            
    }
    public int countChickens(){
        return chickens.size();
