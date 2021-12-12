@@ -74,7 +74,9 @@ public class FarmSystem {
                 }
             
             else if(option==2){
-                System.out.println("Enter the chicken id --->");
+                System.out.println("Enter the chicken id for delete--->");
+                id = read.nextInt();
+                chickenCoop.remove();
                                 
             }
             
@@ -86,9 +88,6 @@ public class FarmSystem {
             else if(option==4){
                 break;
             }
-        }
-        
+        } 
     }
-    
-    
 }

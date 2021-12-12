@@ -65,6 +65,10 @@ public class ChickenCoop {
     public void setChickens(ArrayList<Chicken> chickens) {
         this.chickens = chickens;
     }
+
+    public void remove() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
    
    
    
