@@ -1,6 +1,7 @@
 package ec.edu.espe.farm.model;
 
 import java.util.ArrayList;
+import java.util.Scanner;
 
 /**
  *
@@ -16,10 +17,16 @@ public class ChickenCoop {
    }
    
    public void remove(Chicken chicken){
-       chickens.remove(chicken);
-       chickens.remove(id);//programar el borrar a la gallina por id 
-               //pedir datos por teclado y que el usuario ingrese datos y se agregen nuevos chickens, 
-               //remover los chickens por el ID
+    Scanner read = new Scanner(System.in); 
+    System.out.println("Enter the chicken id for delete--->");
+    id = read.nextInt();
+      // if (chickens.listIterator()) {
+           
+      // }
+    
+    
+    Chicken search = chickens.get(id);
+    chickens.remove(id-1);
                
    }
    public int countChickens(){
