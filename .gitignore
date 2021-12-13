@@ -18,13 +18,7 @@
 *.zip
 *.tar.gz
 *.rar
+*.bak
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
-/WH07 -/MedicalPro/build/
-/WH07 -/MedicalPro/nbproject/private/
-/HW07 -/MedicalPro/build/
-/HW07 -/MedicalPro/nbproject/private/
-/HW07 - ImplementArrayProject/MedicalPro/build/
-/HW07 - ImplementArrayProject/MedicalPro/nbproject/private/
-/HW05 - ArrayListAddRemoveShow/Farm3/target/

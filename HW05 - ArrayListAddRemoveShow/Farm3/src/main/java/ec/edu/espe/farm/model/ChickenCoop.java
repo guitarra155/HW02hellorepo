@@ -11,10 +11,9 @@ public class ChickenCoop {
     private int id;
    private ArrayList<Chicken> chickens;
 
-   public void add(Chicken chicken){
-       chickens.add(chicken);
-       
-   }
+    public void add(Chicken chicken){
+        chickens.add(chicken); 
+    }
    
    public void remove(Chicken chicken){
     Scanner read = new Scanner(System.in); 
@@ -30,6 +29,7 @@ public class ChickenCoop {
    public int countChickens(){
        return chickens.size();
    }
+   
     public ChickenCoop(int id, ArrayList<Chicken> chickens) {
         this.id = id;
         this.chickens = chickens;

@@ -13,7 +13,7 @@ import java.util.Scanner;
 public class FarmSystem {
     
     public static void main(String[] args) {
-        int cont=2;
+
         Chicken chicken = null;
         ChickenCoop chickenCoop = null;
         ArrayList<Chicken> chickens = new ArrayList<>(); 
@@ -21,8 +21,7 @@ public class FarmSystem {
         chickenCoop = new ChickenCoop(0, chickens); 
         
         while(true){
-        
-            int option = 0;       
+             
             int id=1;
             String name= "Lucy";
             String color="white and brown";
@@ -38,7 +37,7 @@ public class FarmSystem {
             System.out.println("5 .-  Exit");
 
             Scanner read = new Scanner(System.in);
-            option = read.nextInt();
+            int option = read.nextInt();
                 
             if (option==1) {
                 
