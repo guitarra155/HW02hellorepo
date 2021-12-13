@@ -34,7 +34,8 @@ public class FarmSystem {
             System.out.println("1 .-  Add chickens");
             System.out.println("2 .-  Remove chickens");
             System.out.println("3 .-  Show chickens in the coop");
-            System.out.println("4 .-  Exit");
+            System.out.println("4 .-  Show the amount of chickens");
+            System.out.println("5 .-  Exit");
 
             Scanner read = new Scanner(System.in);
             option = read.nextInt();
@@ -58,13 +59,13 @@ public class FarmSystem {
             else if(option==2){
                 chickenCoop.remove(chicken);  
             }
-            
             else if(option==3){
-                System.out.println("Chickens in the Chicken coop  -->" + chickenCoop.countChickens());
-                System.out.println("chicken coop -->" + chickenCoop);
+                System.out.println("chicken in the coop -->" + chickenCoop);
             }
-            
             else if(option==4){
+                System.out.println("Amount of Chicken  -->" + chickenCoop.countChickens());
+            }
+            else if(option==5){
                 break;
             }
         } 
